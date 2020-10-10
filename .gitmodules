@@ -1,9 +1,10 @@
 [submodule "site/themes/ananke"]
-	path = site/themes/ananke
+	path = sites/themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "site/themes.terminal"]
+[submodule "sites/themes.terminal"]
 	path = site/themes.terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
-[submodule "site/themes/terminal"]
-	path = site/themes/terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
+
+[submodule "sites/themes/hugo-devresume-theme"]
+	path = site/themes/hugo-devresume-theme
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
