@@ -25,7 +25,6 @@ jobs:
       - name: Build
         run: |
           cd ${{env.working-directory}}
-          hugo --minify
           chmod +x ./buildHugoSites.sh
           ./buildHugoSites.sh
 
