@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     env:
-        working-directory: /
+        working-directory: /.
     steps:
       - uses: actions/checkout@v2
         with:
