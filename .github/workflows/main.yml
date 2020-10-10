@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: |
           cd ${{env.working-directory}}
-          chmod +x ./buildHugoSites.sh
+          chmod +x buildHugoSites.sh
           ./buildHugoSites.sh
 
       - name: Deploy
