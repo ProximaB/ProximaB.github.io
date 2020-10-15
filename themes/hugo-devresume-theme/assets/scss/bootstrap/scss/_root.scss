@@ -17,3 +17,29 @@
   --font-family-sans-serif: #{inspect($font-family-sans-serif)};
   --font-family-monospace: #{inspect($font-family-monospace)};
 }
+
+@media only print {
+  .main-wrapper {
+    display: none !important;
+  }
+  .resume-wrapper:after {
+    display: none !important;
+    width: 100px;
+    height: 150px;
+  }
+  .printable {
+    display: block !important;
+  }
+
+  body {
+    display: absolute;
+    background-size: 100vw 100vh;
+    background-image: url('https://svgshare.com/i/Q_n.svg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+
