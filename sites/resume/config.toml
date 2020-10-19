@@ -42,7 +42,7 @@ enable = true
 [[params.skills.list]]
 title = "Technical"
 [[params.skills.list.items]]
-proficient at computer networks, has knowledge about building modern high availability systems on cloud and systems that would need to scale-up eventually 
+details = "proficient at computer networks, has knowledge about building modern high availability systems on cloud and systems that would need to scale-up eventually"
 [[params.skills.list.items]]
 details = ".Net, Go, Python, TypeScript"
 [[params.skills.list.items]]
