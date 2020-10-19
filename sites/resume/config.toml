@@ -58,7 +58,7 @@ details = "familiar with Azure/GCP basics, AKS/GKE"
 [[params.skills.list.items]]
 details = "clean-code, object-oriented design"
 [[params.skills.list.items]]
-details = "designing and implementing databases structures with good practise. Experienced in writing complex sql queries."
+details = "designing and implementing databases schemes with good practise. Experienced in writing complex sql queries."
 
 [[params.skills.list]]
 title = "Professional"
