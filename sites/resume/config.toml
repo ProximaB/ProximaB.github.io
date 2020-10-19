@@ -8,7 +8,7 @@ title = "Resume"
 
 [params]
 author = "Bartek"
-description = "Resume/CV Software Developer /--asdasd"
+description = "Resume/CV Software Developer"
 
 primaryColor = "#cdc9c3" #54B689"
 textPrimaryColor = "#555555" #292929"
@@ -16,7 +16,7 @@ textPrimaryColor = "#555555" #292929"
 [params.profile]
 avatar = "IMG-2492.jpg"
 enable = true
-name = "Bartłomiej Smarzeniec"
+name = "Bartłomiej Smarzeniec test"
 tagline = "Junior Software Engineer"
 
 [params.contact]
