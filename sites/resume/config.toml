@@ -16,7 +16,7 @@ textPrimaryColor = "#555555" #292929"
 [params.profile]
 avatar = "IMG-2492.jpg"
 enable = true
-name = "Bartłomiej Smarzeniec test"
+name = "Bartłomiej Smarzeniec"
 tagline = "Junior Software Engineer"
 
 [params.contact]
@@ -42,25 +42,23 @@ enable = true
 [[params.skills.list]]
 title = "Technical"
 [[params.skills.list.items]]
-details = "Go, .Net, Python, TypeScript"
+proficient at computer networks, has knowledge about building modern high availability systems on cloud and systems that would need to scale-up eventually 
+[[params.skills.list.items]]
+details = ".Net, Go, Python, TypeScript"
+[[params.skills.list.items]]
+details = "Docker, K8s, HELM, Kustomize, Istio, Linkerd, Traefik"
+[[params.skills.list.items]]
+details = "gRPC, webApi, graphQL, rabbitmq, kafka, mqtt"
 [[params.skills.list.items]]
 details = "ASP.NET, signalR, Hangfire, Buffalo, Gin, sqlx"
 [[params.skills.list.items]]
-details = "gRPC, webApi, graphQL, pub/sub, kafka"
+details = "MSSQL, PostgreSQL, Redis, MongoDb"
 [[params.skills.list.items]]
-details = "web sockets, server-side-events"
+details = "familiar with Azure/GCP basics, AKS/GKE"
 [[params.skills.list.items]]
-details = "MSSQL, Oracle, PostgreSQL, Redis, MongoDb"
+details = "clean-code, object-oriented design"
 [[params.skills.list.items]]
-details = "Docker, K8s"
-[[params.skills.list.items]]
-details = "familiar with Azure/GCP basics"
-[[params.skills.list.items]]
-details = "object-oriented design, computer networks"
-[[params.skills.list.items]]
-details = "microservices, distributed system"
-[[params.skills.list.items]]
-details = "Design and implement database structures with good practise. Experienced in writing complex sql queries."
+details = "designing and implementing databases structures with good practise. Experienced in writing complex sql queries."
 
 [[params.skills.list]]
 title = "Professional"
@@ -201,7 +199,7 @@ details = "2018 · Lorem Ipsum"
 details = "2016 · Sed Fringilla"
 
 [[params.information.list]]
-details = "Climbing, Snowboarding, Photography, Travelling"
+details = "Hiking, Sports especially volleyball, Guitar, Photography, Music, Chess, Just Chilling"
 title = "Interests"
 
 [params.social]
@@ -209,13 +207,13 @@ enable = true
 
 [[params.social.list]]
 icon = "fab fa-github-square"
-title = "username"
-url = "//github.com/username"
+title = "proximab"
+url = "//github.com/ProximaB/"
 [[params.social.list]]
 icon = "fab fa-linkedin"
-title = "username"
+title = "Bartłomiej Smarzeniec"
 url = "//linkedin.com/in/username"
-[[params.social.list]]
-icon = "fab fa-twitter-square"
-title = "@username"
-url = "//twitter.com/username"
+#[[params.social.list]]
+#icon = "fab fa-twitter-square"
+#title = "@username"
+#url = "//twitter.com/username"
