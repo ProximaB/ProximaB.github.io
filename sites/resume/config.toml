@@ -213,7 +213,7 @@ url = "//github.com/ProximaB/"
 icon = "fab fa-linkedin"
 title = "Bartłomiej Smarzeniec"
 url = "//linkedin.com/in/username"
-#[[params.social.list]]
-#icon = "fab fa-twitter-square"
-#title = "@username"
-#url = "//twitter.com/username"
+[[params.social.list]]
+icon = "fab fa-twitter-square"
+title = "@username"
+url = "//twitter.com/username"
