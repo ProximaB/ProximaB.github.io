@@ -3,33 +3,20 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main # Set a branch to deploy
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
-    env:
-        working-directory: /.
+    name: shalzz/zola-deploy-action
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          # extended: true
-
-      - name: Build
-        run: |
-          chmod +x buildHugoSites.sh
-          ./buildHugoSites.sh
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
-          publish_dir: ./sites/resume/public
-
+      # Checkout
+      - uses: actions/checkout@master
+      # Build & deploy
+      - name: shalzz/zola-deploy-action
+        uses: shalzz/zola-deploy-action@v0.12.0
+        env:
+          # Target branch
+          PAGES_BRANCH: gh-pages
+          # Provide personal access token
+          TOKEN: ${{secrets.GITHUB_TOKEN}}
