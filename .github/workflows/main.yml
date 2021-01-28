@@ -13,8 +13,7 @@ jobs:
       # Checkout
       - uses: actions/checkout@master
         with:
-          submodules: true
-          fetch-depth: 0
+          submodules: recursive
       # Build & deploy
       - name: shalzz/zola-deploy-action
         uses: shalzz/zola-deploy-action@v0.12.0
