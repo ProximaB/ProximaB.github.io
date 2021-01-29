@@ -1,6 +1,10 @@
 # The URL the site will be built for
 base_url = "https://proximab.github.io/"
 
+# local testing
+# base_url = "http://192.168.100.14:8080/"
+# zola serve -p 8080 -i 192.168.100.14 -u 192.168.100.14
+
 # Theme
 theme = "float"
 
@@ -43,17 +47,19 @@ build_search_index = true
 [extra]
 main_section = "blog"
 
-copyright = ""
+copyright = "@proximab"
 
 web_fonts = "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap'>"
 
-google_analytics = false
-# google_analytics_id = "UA-XXXXXX-X"
+google_analytics = true
+google_analytics_id = "G-W8WCCFLXFF"
 
 google_adsense = false
 # google_adsense_id = "ca-pub-XXXXXXXXXXXXXXXX"
 
+display_twitter_link = false
 twitter_account = "@xxx"
+twitter_url = "https://www.twitter.com/"
 
 likecoin = false
 # likecoin_name = "xxx"
@@ -61,3 +67,6 @@ likecoin = false
 utterances = false
 # utterances_repo = "xxx/xxx"
 
+[author]
+name = "proximab"
+homepage = "https://proximab.github.io/"
