@@ -16,7 +16,7 @@ jobs:
           submodules: recursive
       # Build & deploy
       - name: shalzz/zola-deploy-action
-        uses: shalzz/zola-deploy-action@v0.12.0
+        uses: shalzz/zola-deploy-action@v0.16.1
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
