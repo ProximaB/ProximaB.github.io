@@ -1,7 +1,7 @@
 +++
 title = "Float theme for Zola"
 description = "Float features and usage guide"
-draft = false
+draft = true
 
 [taxonomies]
 tags = ["Float", "Zola"]
