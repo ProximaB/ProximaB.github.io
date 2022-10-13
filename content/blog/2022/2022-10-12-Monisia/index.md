@@ -2,8 +2,10 @@
 title = "Monisia"
 description = "Monisia ❤️"
 draft = false
+
 [taxonomies]
-tags = ["go", "golang", "webdev"]
+tags = ["ddd", "dotnet", "strategic design pattern"]
+
 [extra]
 feature_image = './lauren-george-WmD8EfNeyXE-unsplash.jpeg'
 feature = true

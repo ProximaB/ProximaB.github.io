@@ -65,7 +65,7 @@ likecoin = false
 # likecoin_name = "xxx"
 
 utterances = true
-utterances_repo = "https://proximab.github.io/"
+utterances_repo = "https://github.com/ProximaB/ProximaB.github.io/"
 
 [author]
 name = "proximab"
