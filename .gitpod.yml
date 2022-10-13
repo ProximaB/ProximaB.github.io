@@ -1,0 +1,9 @@
+tasks:
+  - name: Install Zola dependencies
+    before: brew install zola
+    init: echo "Your version of Zola is `zola --version`"
+    command: zola serve -p 1313 -i 0.0.0.0 -u $(gp url 1313)
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 1313
+    onOpen: open-preview

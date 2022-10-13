@@ -34,7 +34,7 @@ generate_feed = true
 #     ]
 #
 taxonomies = [
-    {name = "tags", paginate_by = 6},
+    {name = "tags", paginate_by = 10},
 ]
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -64,8 +64,8 @@ twitter_url = "https://www.twitter.com/"
 likecoin = false
 # likecoin_name = "xxx"
 
-utterances = false
-# utterances_repo = "xxx/xxx"
+utterances = true
+utterances_repo = "https://proximab.github.io/"
 
 [author]
 name = "proximab"

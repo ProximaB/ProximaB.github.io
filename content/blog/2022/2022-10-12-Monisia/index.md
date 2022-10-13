@@ -1,11 +1,11 @@
 +++
-title = "Monisia 😘"
+title = "Monisia"
 description = "Monisia ❤️"
 draft = false
 [taxonomies]
 tags = ["go", "golang", "webdev"]
 [extra]
-feature_image = './lauren-george-WmD8EfNeyXE-unsplash.jpeg'
+feature_image = '@/lauren-george-WmD8EfNeyXE-unsplash.jpeg'
 feature = true
 link = ""
 +++

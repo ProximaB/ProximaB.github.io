@@ -1,11 +1,13 @@
 +++
 title = "Float theme for Zola"
 description = "Float features and usage guide"
-draft = true
+draft = false
+
 [taxonomies]
 tags = ["Float", "Zola"]
+
 [extra]
-feature_image = "./Float.png"
+feature_image = "Float.svg"
 feature = true
 link = ""
 +++
@@ -33,19 +35,20 @@ Float 是一款為 [Zola](https://www.getzola.org/) 設計的佈景主題。
 在您的 Zola 專案資料夾內：
 
 把 Float 以 Git 子模組的方式加入專案內：
-```shell
+
+```sh
 git submodule add https://gitlab.com/float-theme/float.git theme/float
 ```
 
 編輯您的 config.toml，指定 Float 作為佈景主題：
 
-```TOML
+```toml
 theme = "float"
 ```
 
 編輯您的 config.toml，加入 tags 作為分類系統：
 
-```TOML
+```toml
 taxonomies = [
     {name = "tags", paginate_by = 10},
 ]
@@ -53,13 +56,13 @@ taxonomies = [
 
 複製 float/static/ 的所有子資料夾與檔案到您的 static/：
 
-```shell
+```sh
 cp -r themes/float/static/* static/
 ```
 
 複製 float/content/ 的所有子資料夾與檔案到您的 content/：
 
-```shell
+```sh
 cp -r themes/float/content/* content/
 ```
 
@@ -73,7 +76,7 @@ cp -r themes/float/content/* content/
 content/
 └── blog/
     └── 2020/
-        └── 2020-06-21-Float theme for Zola/
+        └── 2020-06-15-Zola-Theme-Float/
             ├── index.md
             ├── pic1.png
             ├── pic2.png
@@ -86,14 +89,14 @@ content/
 
 Front-matter 請參照下列註解說明：
 
-```TOML
+```toml
 title = "Float theme for Zola"
 description = "Float features and usage guide"
 draft = false
 [taxonomies]
 tags = ["Float", "Zola"]
 [extra]
-#feature_image = "pic1.png" # 卡片圖片。
+feature_image = "pic1.png" # 卡片圖片。
 feature = true # 是否為重點文章，重點文章會以寬版卡片顯示。
 link = "" # 指定卡片連結，若有指定則卡片不會連結到文章頁。
 ```
@@ -102,7 +105,7 @@ link = "" # 指定卡片連結，若有指定則卡片不會連結到文章頁�
 
 可客製化設定大多可以在 config.toml 的 `[extra]` 區段做設定：
 
-```TOML
+```toml
 [extra]
 main_section = "blog"
 
