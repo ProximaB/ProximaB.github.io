@@ -14,7 +14,7 @@ link = ""
 
 ![Streams](lauren-george-WmD8EfNeyXE-unsplash.jpeg)
 
-## Introduction to Context Map Relations 
+## Introduction to context map relations 
 
 Context Maps are a way to visualize the contact between different contexts and teams. They can help you see how patterns are shared between different teams, and how the different teams interact with each other.. This allows you to see the relationships between different contexts of the system. Context Maps can be used to help understand the structure and functionality of existing systems or applications, as well as to help plan the design of new ones. There are many different context map patterns, depending of publications, this article will focus on the most common ones.
 
