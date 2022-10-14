@@ -64,3 +64,4 @@ Links:
 [DDD-strategic-patterns](https://pubs.opengroup.org/architecture/o-aa-standard/DDD-strategic-patterns.html)
 [Domain-Driven Design: Tackling Complexity in the Heart of Software, by Eric Evans, Addison-Wesley 2004](http://ddd.fed.wiki.org/)
 [DDD bounded contexts](https://www.baeldung.com/java-modules-ddd-bounded-contexts)
+[Domains subdomainp roblem](https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c)
