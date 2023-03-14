@@ -7,7 +7,7 @@ draft = false
 tags = ["ddd", "strategic ddd"]
 
 [extra]
-feature_image = './john-torcasio-DXa_QaVmM2A-unsplash.jpg
+feature_image = './john-torcasio-DXa_QaVmM2A-unsplash.jpg'
 feature = true
 link = ""
 +++
