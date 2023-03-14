@@ -22,9 +22,9 @@ By utilizing context mapping, the companies involved in the F-22's development w
 
 ## Introduction to context map relations 
 
-Context Maps are a way to visualize the contact between different contexts and teams. They can help you see how patterns are shared between different teams, and how the different teams interact with each other.. This allows you to see the relationships between different contexts of the system. Context Maps can be used to help understand the structure and functionality of existing systems or applications, as well as to help plan the design of new ones. There are many different context map patterns, depending of publications, this article will focus on the most common ones.
+Context Maps are a way to visualize the contact between different contexts and teams. They can help you see how patterns are shared between different teams, and how the different teams interact with each other. This allows you to see the relationships between different contexts of the system. Context Maps can be used to help understand the structure and functionality of existing systems or applications, as well as to help plan the design of new ones. There are many different context map patterns, depending on publications, this article will focus on the most common ones.
 
-Context maps help identify management issues between applications and teams, revealing how teams communicate and their influence on one each other. Using context mapping, it is possible to gain a clear understanding of where and how bad models are propagated in system.
+Context maps help identify management issues between applications and teams, revealing how teams communicate and their influence on one each other. Using context mapping, it is possible to gain a clear understanding of where and how bad models are propagated in the system.
 
 Context map patterns are categorized in three ways:
 
@@ -35,14 +35,14 @@ Context map patterns are categorized in three ways:
 - Downstream patterns: Customer/Supplier, Conformist, Anti-Corruption Layer
 
 ### Open / Host Service
-Exposing an API defined by a (bounded) context that allows other systems integrate with it. This downstream relation comes in handy when we have many integrators as allow each team to maintainance their own intergrations. In the ideal scenario api is only expanding, except when a single team has speciall needs and api has to be expanded breaking the downsteream hierarchy, but the previous api should be always preserved for already integrated systems.
+Exposing an API defined by a (bounded) context that allows other systems to integrate with it. This downstream relation comes in handy when we have many integrators to allow each team to maintenance their own integrations. In the ideal scenario api is only expanding, except when a single team has special needs and api has to be expanded breaking the downsteream hierarchy, but the previous api should be always preserved for already integrated systems.
 
 
 ### Publish language
 
 > “The translation between the models of two bounded contexts requires a common language. Use a well-documented shared language that can express the necessary domain information as a common medium of communication, translating as necessary into and out of that language. Published Language is often combined with Open Host Service.” [Evans 2003]
 
-It is basicily a relation that is based on some shared, well-defined common language, which could be e.g. xml, protobuf, GTFS, vcard.
+It is basically a relation that is based on some shared, well-defined common language, which could be e.g. xml, protobuf, GTFS, vcard.
 
 
 ### Partnership
@@ -70,4 +70,4 @@ Links:
 [DDD-strategic-patterns](https://pubs.opengroup.org/architecture/o-aa-standard/DDD-strategic-patterns.html)
 [Domain-Driven Design: Tackling Complexity in the Heart of Software, by Eric Evans, Addison-Wesley 2004](http://ddd.fed.wiki.org/)
 [DDD bounded contexts](https://www.baeldung.com/java-modules-ddd-bounded-contexts)
-[Domains subdomainp roblem](https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c)
+[Domains subdomain roblem](https://medium.com/nick-tune-tech-strategy-blog/domains-subdomain-problem-solution-space-in-ddd-clearly-defined-e0b49c7b586c)
