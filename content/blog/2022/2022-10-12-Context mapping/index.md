@@ -7,12 +7,12 @@ draft = false
 tags = ["ddd", "strategic ddd"]
 
 [extra]
-feature_image = './lauren-george-WmD8EfNeyXE-unsplash.jpeg'
+feature_image = './john-torcasio-DXa_QaVmM2A-unsplash.jpg
 feature = true
 link = ""
 +++
 
-![Streams](lauren-george-WmD8EfNeyXE-unsplash.jpeg)
+![Streams](john-torcasio-DXa_QaVmM2A-unsplash.jpg)
 
 ## Introduction to context map relations 
 
