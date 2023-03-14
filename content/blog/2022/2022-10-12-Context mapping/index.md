@@ -14,6 +14,12 @@ link = ""
 
 ![Streams](john-torcasio-DXa_QaVmM2A-unsplash.jpg)
 
+Context mapping is a technique used in Domain-Driven Design (DDD) to facilitate the management of relationships and interactions between different bounded contexts within a larger domain. This technique has been successfully applied in several fields, including software development, engineering, and aerospace.
+
+One example of how context mapping could be utilized in the aerospace industry is in the development of complex projects such as the F-22 Raptor. The F-22 was designed and produced by various companies, each with their own areas of expertise and knowledge domains related to the development of the aircraft. To ensure efficient cooperation and development of the F-22, these companies could have potentially used context mapping techniques to identify the different bounded contexts involved in the project, such as avionics, engines, aerodynamics, and weapons systems. They could have then mapped out the relationships and dependencies between these contexts, allowing each company to focus on their own areas of expertise while still collaborating effectively.
+
+By utilizing context mapping, the companies involved in the F-22's development would have been able to determine what each context or team expected to receive from the other teams, and what they needed to contribute in order to build a complete, functional aircraft. This approach could have helped to ensure that the F-22 Raptor was developed efficiently and effectively, with each company contributing their specialized knowledge and expertise to the project.
+
 ## Introduction to context map relations 
 
 Context Maps are a way to visualize the contact between different contexts and teams. They can help you see how patterns are shared between different teams, and how the different teams interact with each other.. This allows you to see the relationships between different contexts of the system. Context Maps can be used to help understand the structure and functionality of existing systems or applications, as well as to help plan the design of new ones. There are many different context map patterns, depending of publications, this article will focus on the most common ones.
