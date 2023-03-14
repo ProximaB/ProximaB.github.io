@@ -1,6 +1,6 @@
 +++
 title = "Streaming data with Go"
-description = "Briefly introduce to Context mapping"
+description = "Avoid unnecessary large memory allocations when processsing data"
 draft = false
 
 [taxonomies]
