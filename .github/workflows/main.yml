@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checkout
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3.0.0
         with:
           submodules: recursive
       # Build & deploy
       - name: shalzz/zola-deploy-action
-        uses: shalzz/zola-deploy-action@v0.16.1
+        uses: shalzz/zola-deploy-action@v0.17.1
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
           # Provide personal access token
-          TOKEN: ${{secrets.GH_ACTION}}
+          GITHUB_TOKEN: ${{ secrets.GH_ACTION }}
