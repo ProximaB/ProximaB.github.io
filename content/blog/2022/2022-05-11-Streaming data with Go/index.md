@@ -4,7 +4,7 @@ description = "Avoid unnecessary large memory allocations when processsing data"
 draft = false
 
 [taxonomies]
-tags = ["go", "golang", "webdev"]
+tags = ["go", "webdev"]
 
 [extra]
 feature_image = './lauren-george-WmD8EfNeyXE-unsplash.jpeg'
