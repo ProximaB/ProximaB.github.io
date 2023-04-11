@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>proximab</title>
+	<subtitle>Go, C#, Typescript, Python, Rust</subtitle>
+	<link href="https://proximab.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://proximab.github.io/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-04-11T00:00:00+00:00</updated>
+	<id>https://proximab.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Divide and Conqour and data processing</title>
+		<published>2023-04-11T00:00:00+00:00</published>
+		<updated>2023-04-11T00:00:00+00:00</updated>
+		<link href="https://proximab.github.io/blog/2023/divide-and-conqour-using-span-partitioning/" type="text/html"/>
+		<id>https://proximab.github.io/blog/2023/divide-and-conqour-using-span-partitioning/</id>
+		<summary>Using Span in parallel with partitioning</summary>
+		
+	</entry>
+	<entry xml:lang="en">
+		<title>Context mapping</title>
+		<published>2022-10-12T00:00:00+00:00</published>
+		<updated>2022-10-12T00:00:00+00:00</updated>
+		<link href="https://proximab.github.io/blog/2022/context-mapping/" type="text/html"/>
+		<id>https://proximab.github.io/blog/2022/context-mapping/</id>
+		<summary>Briefly introduce to Context mapping</summary>
+		
+	</entry>
+	<entry xml:lang="en">
+		<title>Streaming data with Go</title>
+		<published>2022-05-11T00:00:00+00:00</published>
+		<updated>2022-05-11T00:00:00+00:00</updated>
+		<link href="https://proximab.github.io/blog/2022/streaming-data-with-go/" type="text/html"/>
+		<id>https://proximab.github.io/blog/2022/streaming-data-with-go/</id>
+		<summary>Avoid unnecessary large memory allocations when processsing data</summary>
+		
+	</entry>
+</feed>
