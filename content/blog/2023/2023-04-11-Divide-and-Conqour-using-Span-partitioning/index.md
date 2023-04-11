@@ -7,12 +7,12 @@ draft = false
 tags = ["c#", ".net core", "performance"]
 
 [extra]
-feature_image = './gildardo-rh-q1-dAZuhs7I-unsplash.jpg'
+feature_image = './gildardo-unsplash.jpg'
 feature = true
 link = ""
 +++
 
-![Streams](gildardo-rh-q1-dAZuhs7I-unsplash.jpg)
+![Streams](gildardo-unsplash.jpg)
 
 ## Temp
 
